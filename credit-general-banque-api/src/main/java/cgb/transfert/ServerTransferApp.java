@@ -11,6 +11,13 @@ public class ServerTransferApp {
 		// TODO Auto-generated method stub	
 		//Tester chargement...
 
+		String iban = IBANGenerator.generateValidIban();
+		
+		System.out.println(CGBIBANValidator.isIbanStructureValide(iban));
+		System.out.println(CGBIBANValidator.isIbanValide(iban));
+		System.out.println(CGBIBANValidator.getCodePays(iban));
+		System.out.println(CGBIBANValidator.getChiffreControle(iban));
+		System.out.println(CGBIBANValidator.getBBAN(iban));
 	}
 }
 

@@ -901,3 +901,11 @@ Wrong user name or password [28000-220]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
 	... 16 more
+2025-03-17 14:54:08.751265+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "AMOUNT" non trouvée
+Table "AMOUNT" not found; SQL statement:
+select * from amount [42102-232]
+2025-03-17 14:54:16.262136+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "AMOUNT" non trouvée
+Table "AMOUNT" not found; SQL statement:
+select * from amount [42102-232]
